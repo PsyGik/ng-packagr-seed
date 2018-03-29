@@ -14,6 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
+## Create Components, Modules in Library
+
+Run `ng g c/m/s <name> --module=<module> --app=library`. This will generate component, module, service etc. in library folder. This can be modified from the app config in `.angular-cli.json` file.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

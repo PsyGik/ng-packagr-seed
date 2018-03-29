@@ -1,0 +1,19 @@
+{
+  "name": "@custom/library",
+  "version": "0.0.0",
+  "author": "Dhanraj Padmashali",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "^5.2.0",
+    "@angular/common": "^5.2.0"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "dist/library",
+    "workingDirectory": "../.ng_build",
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    }
+  }
+}
