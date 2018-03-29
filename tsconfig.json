@@ -18,7 +18,7 @@
     ],
     "paths": {
       "@custom/library": [
-        "dist/library"
+        "./dist/library"
       ]
     }
   },
