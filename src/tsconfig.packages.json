@@ -2,23 +2,20 @@
   "extends": "../tsconfig.json",
   "angularCompilerOptions": {
     "paths": {
-      "@custom/library": ["../library/src/public_api.ts"]
+      "@custom/library": [ "../dist/library" ]
     }
   },
   "compilerOptions": {
     "outDir": "../out-tsc/app",
-    "baseUrl": "./",
     "module": "es2015",
+    "baseUrl": "",
     "types": [],
     "paths": {
-      "@custom/library": [
-        "../library/src/public_api.ts"
-      ]
+      "@custom/library": [ "../dist/library" ]
     }
   },
   "exclude": [
     "test.ts",
-    "**/*.spec.ts",
-    ".ng_build"
+    "**/*.spec.ts"
   ]
 }
